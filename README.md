@@ -1,4 +1,4 @@
-# cra-template-typescript
+# cra-template-esp
 
 This is the Unofficial TypeScript template for [Create React App](https://github.com/facebook/create-react-app).
 
