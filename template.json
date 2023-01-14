@@ -1,6 +1,6 @@
 {
   "package": {
-    "proxy": "http://weeduino.local",
+    "proxy": "http://adn.local",
     "scripts": {
       "start": "env-cmd -f .env react-app-rewired start",
       "build": "env-cmd -f .env react-app-rewired build & awot-static",
