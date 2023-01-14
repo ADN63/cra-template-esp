@@ -1,6 +1,16 @@
 {
   "package": {
     "proxy": "http://adn.local",
+    "awot-static": {
+      "sources": "./build",
+      "indexFile": "index.html",
+      "sketchDir": "./ArduinoProject",
+      "sdCard": true,
+      "exclude": [
+        "*.map",
+        "service-worker.js"
+      ]
+    },
     "scripts": {
       "start": "env-cmd -f .env react-app-rewired start",
       "build": "env-cmd -f .env react-app-rewired build & awot-static",
